@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  background-color: white;
+  display: block;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+}
+.menu li {
+  list-style: none;
+}
+.menu {
+  display: flex;
+  margin-top: 34px;
+  margin-bottom: 10px;
+}
+.navbar-logo img {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu li {
+  margin-right: 30px;
+  font-size: 16px;
+}
+.menu-btn {
+  margin-top: 24px;
+}
+.menu-btn button {
+  background: #2e367d;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.menu-btn button:hover {
+  background: #00aeef;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.menu li a {
+  color: #1e266d;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: poppins;
+}
+/* --form-- */
+form {
+  padding: 120px 0px;
+}
+/* --------------Line extension here------------------ */
+
+.container-line {
+  max-width: 1140px;
+  height: 1140px;
+  border: 2px solid #1e266d;
+  display: block;
+}
+.heading {
+  max-width: 1140px;
+  height: 60px;
+  background-color: #1e266d;
+  margin-bottom: 20px;
+}
+.heading h4 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: poppins;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.info {
+  width: 1100px;
+  background-color: aqua;
+  height: auto;
+  margin-left: 20px;
+}
+.info ul {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  list-style: square;
+  padding-top: 10px;
+  font-size: 18px;
+  color: blue;
+  margin-left: 10px;
+}
+.info strong {
+  padding-left: 30px;
+  font-size: 24px;
+  color: red;
+}
+.info-row {
+  padding: 10px 0px;
+}
+/* ----container line 2----- */
+.container-line-2 {
+  max-width: 1100px;
+  height: 600px;
+  border: 2px solid #0e88a7;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.heading-sec-2 {
+  height: 60px;
+  background-color: #0e88a7;
+  margin-bottom: 20px;
+}
+.heading-sec-2 h4 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: poppins;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.info-row-2 {
+  padding-left: 20px;
+}
+.info-row-2 label {
+  font-weight: 600;
+  font-size: 16px;
+}
+.star {
+  color: red;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.extra-inf {
+  color: orange;
+  font-size: 13px;
+}
+.in-1 {
+  width: 1050px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.info-row-2 input:focus {
+  outline: none;
+}
+.selection-row {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+}
+.day-select,
+.Month-select,
+.year-select {
+  width: 320px;
+  height: 30px;
+}
+.day-select,
+.Month-select,
+.year-select :focus {
+  outline: none;
+}
+.selection-row {
+  margin: 10px 0px;
+}
